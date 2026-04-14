@@ -1,0 +1,28 @@
+{
+  "dataset_summary": {
+    "shape": [
+      14368,
+      46
+    ],
+    "label_distribution": {
+      "1": 10894,
+      "0": 3474
+    },
+    "missingness": {
+      "followers_count": 0.0,
+      "friends_count": 0.0,
+      "statuses_count": 0.0,
+      "favourites_count": 0.0,
+      "listed_count": 0.0,
+      "default_profile": 0.686,
+      "default_profile_image": 0.9946,
+      "geo_enabled": 0.7611
+    }
+  },
+  "table_rq5_a": "outputs/rq5_tables/table_rq5_a_feature_masking.csv",
+  "table_rq5_b": "outputs/rq5_tables/table_rq5_b_noise_injection.csv",
+  "figure_rq5_a": "outputs/rq5_figures/figure_rq5_a_robustness_heatmap.pdf",
+  "figure_rq5_b": "outputs/rq5_figures/figure_rq5_b_degradation_trajectories.pdf",
+  "xgboost_available": false,
+  "pyg_available": true
+}

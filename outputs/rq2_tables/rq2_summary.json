@@ -1,0 +1,35 @@
+{
+  "dataset_summary": {
+    "shape": [
+      14368,
+      46
+    ],
+    "label_distribution": {
+      "1": 10894,
+      "0": 3474
+    },
+    "missingness": {
+      "followers_count": 0.0,
+      "friends_count": 0.0,
+      "statuses_count": 0.0,
+      "favourites_count": 0.0,
+      "listed_count": 0.0,
+      "default_profile": 0.686,
+      "default_profile_image": 0.9946,
+      "geo_enabled": 0.7611
+    }
+  },
+  "table_rq2_a": "outputs/rq2_tables/table_rq2_a_main_model_comparison.csv",
+  "table_rq2_b": "outputs/rq2_tables/table_rq2_b_statistical_comparison.csv",
+  "figure_rq2_a": "outputs/rq2_figures/figure_rq2_a_comparative_performance.pdf",
+  "figure_rq2_b": "outputs/rq2_figures/figure_rq2_b_graph_sensitivity.pdf",
+  "xgboost_available": false,
+  "pyg_available": true,
+  "robustness_seeds": [
+    42,
+    52,
+    62,
+    72,
+    82
+  ]
+}

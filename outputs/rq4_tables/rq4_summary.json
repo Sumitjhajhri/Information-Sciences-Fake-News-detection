@@ -1,0 +1,28 @@
+{
+  "dataset_summary": {
+    "shape": [
+      14368,
+      46
+    ],
+    "label_distribution": {
+      "1": 10894,
+      "0": 3474
+    },
+    "missingness": {
+      "followers_count": 0.0,
+      "friends_count": 0.0,
+      "statuses_count": 0.0,
+      "favourites_count": 0.0,
+      "listed_count": 0.0,
+      "default_profile": 0.686,
+      "default_profile_image": 0.9946,
+      "geo_enabled": 0.7611
+    }
+  },
+  "table_rq4_a": "outputs/rq4_tables/table_rq4_a_hybrid_contribution.csv",
+  "table_rq4_b": "outputs/rq4_tables/table_rq4_b_hybrid_robustness.csv",
+  "figure_rq4_a": "outputs/rq4_figures/figure_rq4_a_hybrid_ablation.pdf",
+  "figure_rq4_b": "outputs/rq4_figures/figure_rq4_b_representation_projection.pdf",
+  "xgboost_available": false,
+  "pyg_available": true
+}

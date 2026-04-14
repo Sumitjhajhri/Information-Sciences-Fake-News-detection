@@ -1,0 +1,8 @@
+Audit Check,Legacy Protocol Status,Revised Protocol Status,Affected Models,Risk Severity,Notes
+Duplicate identity overlap across splits,Not checked,Removed,All,High,Same or near-identical accounts can inflate generalization
+Duplicate feature rows across splits,Observed: 273,Observed: 264,"LR, RF, XGB, Graph, Hybrid",High,Repeated feature patterns can inflate out-of-sample estimates
+Full-data scaler fitting,Present,Removed,"LR, Graph, Hybrid",High,Train-only scaling enforced in revised protocol
+Full-data imputation statistics,Present,Removed,All,Medium,Revised protocol fits imputation on train only
+Graph built after combining train and test nodes,Present,Explicitly controlled,"GCN, GraphSAGE, GAT, Hybrid",High,Must be declared as transductive or redesigned
+Uncontrolled random split,Present,Fixed saved split policy,All,Medium,Seeded and reproducible split used in revised protocol
+Missingness handled inconsistently across models,Present,Unified 11-feature policy,All,Medium,Sparse profile fields receive missingness indicators

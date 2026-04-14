@@ -1,0 +1,28 @@
+{
+  "dataset_summary": {
+    "shape": [
+      14368,
+      46
+    ],
+    "label_distribution": {
+      "1": 10894,
+      "0": 3474
+    },
+    "missingness": {
+      "followers_count": 0.0,
+      "friends_count": 0.0,
+      "statuses_count": 0.0,
+      "favourites_count": 0.0,
+      "listed_count": 0.0,
+      "default_profile": 0.686,
+      "default_profile_image": 0.9946,
+      "geo_enabled": 0.7611
+    }
+  },
+  "table_rq7_a": "outputs/rq7_tables/table_rq7_a_error_analysis.csv",
+  "table_rq7_b": "outputs/rq7_tables/table_rq7_b_operational_actionability.csv",
+  "figure_rq7_a": "outputs/rq7_figures/figure_rq7_a_feature_importance.pdf",
+  "figure_rq7_b": "outputs/rq7_figures/figure_rq7_b_case_based_explanations.pdf",
+  "xgboost_available": false,
+  "pyg_available": true
+}

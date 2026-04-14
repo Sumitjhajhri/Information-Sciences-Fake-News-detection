@@ -1,0 +1,5 @@
+Model,Explanation Transparency,Review Friendliness,Threshold Tunability,Scalability,False-Positive Cost Suitability,Deployment Recommendation
+Logistic Regression,High,High,High,Very High,High,Good lightweight baseline for assisted moderation
+HistGradientBoosting,High,High,High,High,High,Strong primary production candidate
+GraphSAGE,Medium,Medium,Medium,Medium,Medium,Useful where relational context is required
+Hybrid HGB+GNN,Medium-High,High,High,Medium-High,High,Best balanced candidate for assisted moderation

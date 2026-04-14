@@ -1,0 +1,28 @@
+{
+  "dataset_summary": {
+    "shape": [
+      14368,
+      46
+    ],
+    "label_distribution": {
+      "1": 10894,
+      "0": 3474
+    },
+    "missingness": {
+      "followers_count": 0.0,
+      "friends_count": 0.0,
+      "statuses_count": 0.0,
+      "favourites_count": 0.0,
+      "listed_count": 0.0,
+      "default_profile": 0.686,
+      "default_profile_image": 0.9946,
+      "geo_enabled": 0.7611
+    }
+  },
+  "table_rq3_a": "outputs/rq3_tables/table_rq3_a_prevalence_shift_evaluation.csv",
+  "table_rq3_b": "outputs/rq3_tables/table_rq3_b_calibration_threshold_analysis.csv",
+  "figure_rq3_a": "outputs/rq3_figures/figure_rq3_a_prevalence_shift.pdf",
+  "figure_rq3_b": "outputs/rq3_figures/figure_rq3_b_precision_recall_shift.pdf",
+  "xgboost_available": false,
+  "pyg_available": true
+}

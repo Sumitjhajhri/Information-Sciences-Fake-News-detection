@@ -1,0 +1,28 @@
+{
+  "dataset_summary": {
+    "shape": [
+      14368,
+      46
+    ],
+    "label_distribution": {
+      "1": 10894,
+      "0": 3474
+    },
+    "missingness": {
+      "followers_count": 0.0,
+      "friends_count": 0.0,
+      "statuses_count": 0.0,
+      "favourites_count": 0.0,
+      "listed_count": 0.0,
+      "default_profile": 0.686,
+      "default_profile_image": 0.9946,
+      "geo_enabled": 0.7611
+    }
+  },
+  "table_rq6_a": "outputs/rq6_tables/table_rq6_a_computational_cost.csv",
+  "table_rq6_b": "outputs/rq6_tables/table_rq6_b_performance_efficiency_summary.csv",
+  "figure_rq6_a": "outputs/rq6_figures/figure_rq6_a_performance_efficiency.pdf",
+  "figure_rq6_b": "outputs/rq6_figures/figure_rq6_b_scalability.pdf",
+  "xgboost_available": false,
+  "pyg_available": true
+}

@@ -1,0 +1,5 @@
+Model,False Positives,False Negatives,Precision,Recall,Common Failure Mode,Operational Risk
+Logistic Regression,195,15,0.917337855023315,0.9931161083065626,Misses subtle bot-like behavior in metadata-only space,Under-detection of coordinated malicious accounts
+HistGradientBoosting,27,21,0.9876430205949657,0.9903625516291877,Confuses highly curated fake profiles with genuine users,Moderate false-ban risk if fully automated
+GraphSAGE,123,18,0.9461471103327496,0.9917393299678752,Over-relies on local similarity neighborhoods,May misclassify accounts in sparse graph regions
+Hybrid HGB+GNN,21,24,0.9903492647058824,0.9889857732905002,Residual ambiguity in borderline accounts,Lowest overall operational risk among evaluated models

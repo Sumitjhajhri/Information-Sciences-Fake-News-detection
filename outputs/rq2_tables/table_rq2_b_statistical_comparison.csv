@@ -1,0 +1,7 @@
+Model Pair,Mean Macro-F1 Difference,Std. Dev.,Wilcoxon p-value,Effect Size,Interpretation
+HistGradientBoosting vs GCN,0.08452106071533268,0.006537130283174545,0.0625,12.929380955355048,Tabular vs graph baseline
+HistGradientBoosting vs GraphSAGE,0.06310232078662667,0.007048148045731888,0.0625,8.953034389197434,Tabular vs graph baseline
+HistGradientBoosting vs GAT,0.10037430645761776,0.00851425124386733,0.0625,11.788974954308602,Tabular vs graph baseline
+LightGBM-like vs GCN,0.08452106071533268,0.006537130283174545,0.0625,12.929380955355048,Strong tabular vs graph baseline
+LightGBM-like vs GraphSAGE,0.06310232078662667,0.007048148045731888,0.0625,8.953034389197434,Strong tabular vs graph baseline
+LightGBM-like vs GAT,0.10037430645761776,0.00851425124386733,0.0625,11.788974954308602,Strong tabular vs graph baseline
